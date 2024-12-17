@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+#container{
+    background-color: lightgreen;
+    margin-top: 100px;
+    width: 500px;
+    /* height: 500px; */
+    margin: 100px auto;
+    padding: 30px;
+
+    text-align: center;
+}
+
+
+#Division{
+    list-style: none;
+
+}
+
+
+
+#container > button {
+    padding: 5px 10px;
+
+    background-color: hotpink;
+    color: white;
+
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+
+   
+    
+}
+
+
+
+
+#container > button:hover{
+    background-color: blueviolet;
+}
+
+
+/* li */
+
+#Division > li {
+
+    padding: 10px;
+
+    background-color: lightskyblue;
+
+    margin: 6px;
+       
+}
+
+
+ /* pseudo classes (:)*/ 
+
+
+
+/* #Division > li:nth-child(5) {
+    background-color: indianred;
+} */
+
+
+/* #Division > li:nth-child(odd) {
+    background-color: indianred;
+} */
+
+#Division > li:nth-child(even) {
+    background-color: indianred;
+}
+
+
+
+input{
+
+    padding: 10px;
+
+    width: 100%;
+}
+
+
+
+input:focus{
+
+    background-color: mediumpurple;
+
+    /* border: 5px solid white; */
+
+    border: none;
+
+    outline: none;
+}
+
+
+
+
+/* a{
+    display: inline-block;
+
+    font-size: 40px;
+} */
+
+
+
+
+/* a:visited{
+    color: deeppink;
+} */
+
+
+
+
+/* pseudo-elements (::) */
+
+/* 
+
+
+#point{
+    
+    color: darkblue;
+} */
+
+
+/* 
+#point::after {
+    content: "Ar Rahman" ;
+    color:deeppink;
+} */
+
+/* 
+#point::after {
+    
+    content: "" ;
+    border: 3px  solid;
+    color:deeppink;
+} */
+
+
+/* #point::after {
+    
+    content: "Allah" ;
+    border: 3px  solid;
+    color:deeppink;
+} */
+
+
+
+/* #point::before {
+    
+    content: "" ;
+    border: 3px  solid;
+    color:deeppink;
+} */
+
+
+
+/* #point::before {
+    
+    content: "Allah" ;
+    border: 3px  solid;
+    color:deeppink;
+} */
+
+
+
+#point::before {
+    
+    content: "Allah " ;
+
+    /* border: 3px solid; */
+    border-top: 3px  solid;
+    /* border-left: 3px solid; */
+
+    color:deeppink;
+}
